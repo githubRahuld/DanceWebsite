@@ -1,0 +1,47 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style
+    style
+      include ../static/style.css  
+
+block content 
+    section#introSection
+       div  Welcome to Rahul's Dance Academy 
+       div.small  Anybody Can Dance 
+     
+    section#ourMission 
+       h2 Our Mission
+       div.card 
+            h3 Dance Perfection
+            div.card-box
+               div.card-img
+                  img(src="/static/img/img1.png")
+
+               div.card-content 
+                 p This is the best dance academy  
+       div.card 
+            h3 Dance The Way You like
+            div.card-box
+               div.card-img
+                  img(src="/static/img/img2.png")
+
+               div.card-content 
+                 p This is the best dance academy  
+       div.card 
+            h3 Dance Perfection
+            div.card-box
+               div.card-img
+                  img(src="/static/img/img3.png")
+
+               div.card-content 
+                 p This is the best dance academy  
+    section#sponserSection
+       h2 Our sponser
+       div#sponsors
+       img(src="/static/img/applelogo.png", alt="Sponsor Image", class="spImage")
+       img(src="/static/img/microsoftlogo.png", alt="Sponsor Image", class="spImage")
+       img(src="/static/img/skypelogo.png", alt="Sponsor Image", class="spImage")
+       img(src="/static/img/hplogo.png", alt="Sponsor Image", class="spImage")

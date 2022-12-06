@@ -1,0 +1,146 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#logo{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin: 0 14px;
+    
+}
+#logo img{
+    height: 30px;
+    filter: invert(1);
+    font-size: 2px;
+  
+  font-family: fantasy;
+}
+
+#navbar{
+    font-family:  sans-serif;
+}
+#navbar ul{
+   display: flex;
+   flex-direction: row;
+   
+   background-color:#ea2442;
+   font-family: 'Anton', sans-serif;
+   padding : 15px;
+   font-weight:bolder;
+}
+
+#navbar li{
+    list-style: none;
+
+}
+#navbar li  a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 20px;
+}
+#navbar li a:hover{
+    color:black;
+    font-size: 20px;
+}
+
+#introSection{
+    color: white;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    background: center/cover no-repeat url("/static/img//bg.jpg");
+    height: 300px;
+    font-family: 'Dancing Script';
+    font-size: 34px;
+    padding-bottom: 20px;
+}
+#introSection div.small{
+    font-size: 27px;
+}
+#ourMission{
+    height: 300px;
+   
+    background-color: white;
+}
+#ourMission  h2{
+    text-align: center;
+    font-family:  cursive;
+    padding: 10px;
+   
+}
+.card h3{
+   text-align: center;
+}
+.card {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 25%;
+    height: 200px;
+    padding: 10px;
+    margin: 17px 40px;
+    display: inline-block;
+}
+.card-box{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.card-img{
+    height: 10px;
+    padding: 0 5px;
+}
+.card-img img{
+    height: 120px;
+}
+div.card-content p{
+    text-align: center;
+    font-size: px;
+    font-family: 'Dancing Script';
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+#sponserSection{
+    height: 300px;
+    background-color:#ffed4d;
+}
+
+#sponserSection h2{
+    font-size: x-large;
+    text-align: center;
+    font-family:  cursive;
+    padding: 10px;
+}
+#sponsors{
+    height: 12px;
+    max-width:100px;
+    margin: auto;
+}
+.spImage{
+    height: 55%;
+    margin: auto;
+    padding: 10px;
+    margin-left: 30px;
+}
+
+
+
+#footer{
+    height: 50px;
+    background-color: rgb(93, 93, 255);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+}
